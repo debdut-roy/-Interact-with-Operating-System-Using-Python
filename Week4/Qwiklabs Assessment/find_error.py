@@ -26,3 +26,9 @@ if __name__ == "__main__":
   returned_errors = error_search(log_file)
   file_output(returned_errors)
   sys.exit(0)
+
+#----Sample Input----
+#./find_error.py ~/data/fishy.log
+#CRON ERROR Failed to start
+#----Sample Output----
+#July 31 04:11:32 mycomputername CRON[51253]: ERROR: Failed to start CRON job due to script syntax error. Inform the CRON job owner!
